@@ -12,7 +12,7 @@ endif()
 project ("LearningOpenGL")
 
 # Add source to this project's executable.
-add_executable (LearningOpenGL "glad.c" "main.cpp")
+add_executable (LearningOpenGL "glad.c" "main.cpp" "Shader.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET LearningOpenGL PROPERTY CXX_STANDARD 20)
